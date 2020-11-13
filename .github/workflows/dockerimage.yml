@@ -1,0 +1,38 @@
+name: Docker Image CI
+
+on:
+  - push
+
+env:
+  ALI_REGISTRY: registry.cn-shanghai.aliyuncs.com
+  IMG_REPO: bowxeon
+  IMG_NAME: office
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: Build the Docker image
+      run: |
+        echo -e "\nLogin docker registry"
+        echo "${{ secrets.ALI_DC_PASSWORD }}" | docker login -u ${{ secrets.ALI_DC_USER }} --password-stdin ${ALI_REGISTRY}
+
+        echo -e "\nCheck branchs/tags\n"
+        git_ref_type=$(echo "${{ github.ref }}" | awk -F '/' '{print $2}')
+        if [[ "${git_ref_type}" == "branch" ]]; then
+            if [[ "${git_ref_name}" != "master" ]]; then
+                echo -e "master branch NO change, skip to build."
+                exit 0
+            fi
+        fi 
+
+        echo -e "\nBuild and push image ${IMG_REPO}/${IMG_NAME}:latest\n"
+        docker build . --file Dockerfile --tag ${IMG_REPO}/${IMG_NAME}:latest
+        docker push ${IMG_REPO}/${IMG_NAME}:latest
+
