@@ -32,7 +32,7 @@ jobs:
             fi
         fi 
 
-        echo -e "\nBuild and push image ${IMG_REPO}/${IMG_NAME}:latest\n"
-        docker build . --file Dockerfile --tag ${IMG_REPO}/${IMG_NAME}:latest
-        docker push ${IMG_REPO}/${IMG_NAME}:latest
+        echo -e "\nBuild and push image ${ALI_REGISTRY}/${IMG_REPO}/${IMG_NAME}:latest\n"
+        docker build . --file Dockerfile --tag ${ALI_REGISTRY}/${IMG_REPO}/${IMG_NAME}:latest
+        docker push ${ALI_REGISTRY}/${IMG_REPO}/${IMG_NAME}:latest
 
