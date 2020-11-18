@@ -23,7 +23,7 @@ email: service@baoxian-sz.com
 description: >- # this means to ignore newlines until "baseurl:"
   Truth & Insurance Office - 苏州首家独立保险经纪事务所
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://office.baoxian-sz.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: seoktaehyeon
 
