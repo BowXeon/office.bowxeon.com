@@ -411,7 +411,7 @@ h6, .h6 {
 
 /*Callout Section-----------------------------------------------------------------------------------------------*/
 .callout-section {
-    background: url("./images/callout-bg.jpg") no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0);
+    background: url("https://gitee.com/BowXeon/office.baoxian-sz.com/raw/master/assets/img/callout-bg.jpg") no-repeat fixed 0 0 / cover rgba(0, 0, 0, 0);
 	height: 100%;
 	margin: 0;
     overflow: hidden;
