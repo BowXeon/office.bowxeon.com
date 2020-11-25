@@ -3,14 +3,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="https://gitee.com/BowXeon/office.baoxian-sz.com/raw/master/assets/img/logo_default_512-1.png"/>
+    
     {% if page.title == 'index' %}
     <title>{{ site.title }}</title>
     {% else %}
     <title>{{ page.title }} - {{ site.title }}</title>
     {% endif %}
+
     <div id="loadingDiv" style="display: block;">
-        <span style="color: #395ca3; font-size: 28px; font-weight: bold; position: absolute; left: 45%; top: 45%;">加 载 中</span>
+      <img src="https://gitee.com/BowXeon/www.baoxian-sz.com/raw/master/assets/img/loading.jpg">
     </div>
+
     <link rel='dns-prefetch' href='//office.baoxian-sz.com'/>
     <link rel='dns-prefetch' href='//fonts.googleapis.com'/>
     <link rel='dns-prefetch' href='//s.w.org'/>
