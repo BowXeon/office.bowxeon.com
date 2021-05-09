@@ -57,3 +57,8 @@ exclude:
   - vendor/ruby/
   - README.md
   - Dockerfile
+
+path:
+  css: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/css"
+  js: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/js"
+  img: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/img"
