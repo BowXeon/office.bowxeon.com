@@ -19,11 +19,11 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Truth & Insurance Office - 真心话险独立保经事务所"
-email: service@baoxian-sz.com
+email: service@bowxeon.com
 description: >- # this means to ignore newlines until "baseurl:"
   Truth & Insurance Office - 苏州首家独立保险经纪事务所
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://office.baoxian-sz.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://office.bowxeon.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: seoktaehyeon
 
@@ -59,10 +59,10 @@ exclude:
   - Dockerfile
 
 path:
-  css: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/css"
-  js: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/js"
-  img: "//bowxeon.gitee.io/office.baoxian-sz.com/assets/img"
+  css: "//bowxeon.gitee.io/office.bowxeon.com/assets/css"
+  js: "//bowxeon.gitee.io/office.bowxeon.com/assets/js"
+  img: "//bowxeon.gitee.io/office.bowxeon.com/assets/img"
 
 copyright: |
-  版权归 <a href="//office.baoxian-sz.com"><b>真心话险事务所</b></a> 所有<br>
+  版权归 <a href="//office.bowxeon.com"><b>真心话险事务所</b></a> 所有<br>
   Copyright ©2017-2021 Truth & Insurance All Rights Reserved
