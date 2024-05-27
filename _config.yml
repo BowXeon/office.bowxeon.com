@@ -57,12 +57,12 @@ exclude:
   - vendor/ruby/
   - README.md
   - Dockerfile
+  - assets/img/
+  - assets/js/
+  - assets/css/
 
 path:
-  css: "//bowxeon.gitee.io/office.bowxeon.com/assets/css"
-  js: "//bowxeon.gitee.io/office.bowxeon.com/assets/js"
-  img: "//bowxeon.gitee.io/office.bowxeon.com/assets/img"
-
-copyright: |
-  版权归 <a href="//office.bowxeon.com"><b>真心话险事务所</b></a> 所有<br>
-  Copyright ©2017-2021 Truth & Insurance All Rights Reserved
+  # css: "//bowxeon.gitee.io/office.bowxeon.com/assets/css"
+  css: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/css"
+  js: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/js"
+  img: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/img/office"
