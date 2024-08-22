@@ -45,6 +45,9 @@ timezone: Asia/Shanghai
 # their entries' file path in the `include:` list.
 #
 exclude:
+  - .git/
+  - .github/
+  - .gitignore
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
@@ -66,3 +69,4 @@ path:
   css: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/css"
   js: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/js"
   img: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/img/office"
+
