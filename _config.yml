@@ -62,11 +62,10 @@ exclude:
   - Dockerfile
   - assets/img/
   - assets/js/
-  - assets/css/
 
 path:
   # css: "//bowxeon.gitee.io/office.bowxeon.com/assets/css"
-  css: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/css"
+  css: "/assets/css"
   js: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/js"
   img: "//bowxeon-1303247615.cos.ap-shanghai.myqcloud.com/img/office"
 
