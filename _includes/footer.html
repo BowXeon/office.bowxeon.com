@@ -4,11 +4,11 @@
             <div class="col-md-3 col-sm-6 footer-widget-column"><h3 class="footer-widget-title">关于我们</h3>
                 <div class="textwidget">
                     <ul>
-                        <li>真心话险事务所</li>
+                        <li>{{ site.org.cn_name }}</li>
                     </ul>
-                    <p>Truth &amp; Insurance Office</p>
-                    <p>致力于「让你的保险更保险」苏州首家独立保险经纪事务所</p>
-                    <p>用诚意打造业界良心之作，以严谨的态度筛选海量产品，用场景选择保险方案。</p>
+                    <p>{{ site.org.en_name }}</p>
+                    <p>{{ site.org.cn_subtitle }}</p>
+                    <p>{{ site.org.cn_slogan_full }}</p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6 footer-widget-column"><h3 class="footer-widget-title">如何咨询</h3>
@@ -68,8 +68,8 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="footer-copyright">
-                    版权归 <a href="//office.bowxeon.com"><b>真心话险事务所</b></a> 所有<br>
-                    Copyright ©<span id="copyright-year">2017</span> Truth & Insurance All Rights Reserved
+                    版权归 <a href="{{ site.url }}"><b>{{ site.org.cn_name }}</b></a> 所有<br>
+                    Copyright ©<span id="copyright-year">2017</span> {{ site.org.en_name }} All Rights Reserved
                 </div>
                 <script>
                     document.addEventListener('DOMContentLoaded', function() {
