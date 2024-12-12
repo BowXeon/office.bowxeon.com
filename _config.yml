@@ -73,12 +73,14 @@ org:
   cn_alias: 保先智策
   cn_name: 保先智策咨询
   cn_subtitle: 苏州首家专注企业保险解决方案的咨询机构
-  cn_slogan_short: 保险更放心，方案更专业
+#  cn_slogan_short: 保险更放心，方案更专业
+  cn_slogan_short: 用方案驱动安心保障
   cn_slogan_long: 秉持严谨态度，深度分析海量保险产品，为企业量身定制最优解决方案，让您的保险真正“更保险”。
   cn_slogan_full: 我们以专业和真诚服务企业客户，致力于通过严谨的分析和定制化的方案设计，解决您在保险管理中的难题。无论是产品筛选、方案设计还是保险代理，我们的目标是让您的每一份保险更值得信赖。
   en_alias: InsureRight
   en_name: InsureRight Consulting
   en_subtitle: Suzhou's Leading Provider of Customized Insurance Consulting Services
-  en_slogan_short: Reliable Insurance, Professional Solutions
+#  en_slogan_short: Reliable Insurance, Professional Solutions
+  en_slogan_short: Driving Peace of Mind with Tailored Solutions
   en_slogan_long: We combine meticulous analysis with tailored solutions, ensuring your insurance needs are handled with expertise and care.
   en_slogan_full: At InsureRight Consulting, we pride ourselves on delivering professional, tailored solutions to meet the diverse insurance needs of businesses. From product selection and solution design to agency services, we ensure that every step is handled with precision and reliability.
